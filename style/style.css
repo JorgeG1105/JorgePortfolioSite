@@ -1,0 +1,236 @@
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #222222;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+}
+
+#container {
+  width: 100%;
+  margin: 0px auto;
+}
+
+/*---------------------------------------------Header Styling----------------------------------------------*/
+
+header {
+}
+
+header a {
+  color: #00F2F2;
+  text-decoration: none;
+  text-align: justify;
+}
+
+header a:hover {
+  color: white;
+}
+
+header p {
+  text-align: justify;
+  padding: 10px;
+  margin: 0 auto;
+}
+/*---------------------------------------------Main Body styling--------------------------------------------*/
+
+.hithere {
+  color: #00F2F2;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+}
+
+.imgtitle{
+  color: #00F2F2;
+  font-family: 'Indie Flower', cursive;
+}
+
+#container .worksdescrip {
+  margin: 0 auto;
+}
+
+#container .codetext {
+  font-size: 10px;
+}
+
+img {
+   max-width: 100%
+}
+
+
+.workscontainer {
+  text-align: initial;
+  border-top: 3px double #fff;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 100%;
+}
+
+.workscontainer p{
+  text-align: initial;
+  font-size: 14px;
+}
+
+.workscontainer img {
+  border: solid black;
+}
+
+.workscontainer img:hover {
+  filter: brightness(80%);
+}
+
+#vivascoaching {
+  width: 31%;
+  display: inline-block;
+  float: left;
+  text-align: center;
+  padding: 15px;
+}
+
+#vivascoaching p {
+  text-align: center;
+}
+
+#joystick {
+  width: 31%;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+}
+
+#joystick p {
+  text-align: center;
+}
+
+#rainforest {
+  width: 31%;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+}
+
+#rainforest p {
+  text-align: center;
+}
+
+#sailormoon {
+  width: 31%;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+}
+
+#sailormoon p {
+  text-align: center;
+}
+
+#derekjeter {
+  width: 31%;
+  float: left;
+  display: inline-block;
+  text-align: center;
+  padding: 15px;
+}
+
+#derekjeter p {
+  text-align: center;
+}
+
+
+.infosection {
+  border-top: 3px double #fff;
+}
+
+
+/*--------------------------------------------Footer Styling-------------------------------------------------*/
+
+footer {
+  border-top: 3px double #fff;
+  font-size: 15px;
+  clear: both;
+}
+
+footer a {
+  text-decoration: none;
+  color:#39C9DF;
+}
+
+footer a:hover {
+   color:#104CC1;
+}
+
+/*********MEDIA QUERIES FOR RESPONSIVE DESIGN*********/
+
+/*------------------------TABLET----------------------------------*/
+@media screen and (min-width: 610px) and (max-width: 1295px){
+  #vivascoaching {
+    width: 45%;
+  }
+  
+  #joystick {
+    width: 45%;
+  }
+
+  #rainforest {
+    width: 45%;
+  }
+
+  #sailormoon {
+    width: 45%;
+  }
+
+  #derekjeter {
+    width: 45%;
+  }
+}
+
+
+
+/*------------MOBILE PHONES/DEVICES-----------------*/
+@media screen and (max-width: 500px) {
+  #vivascoaching {
+    width: 93%;
+    padding top: 5px;
+  }
+
+  #joystick {
+    width: 93%;
+    padding top: 5px;
+  }
+
+  #rainforest {
+    width: 93%;
+    padding top: 5px;
+  }
+
+  #sailormoon {
+    width: 93%;
+    padding-top: 5px;
+  }
+
+  #derekjeter {
+    width: 93%;
+    padding-top: 5px;
+  }
+
+  #container .imgtitle {
+    font-size: 20px;
+  }
+
+  #container .worksdescrip {
+    margin-right: 20px;
+    font-size: 18px;
+  }
+
+  #container .codetext {
+    font-size: 14px;
+  }
+}
